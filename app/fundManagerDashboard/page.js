@@ -65,7 +65,7 @@ export default function FundManagerDashboard() {
                 </div>
               </div>
             ))}
-            {funds.length === 0 && <p className="text-gray-400">You haven't created any funds yet.</p>}
+            {funds.length === 0 && <p className="text-gray-400">You havent created any funds yet.</p>}
           </div>
         )}
       </section>
