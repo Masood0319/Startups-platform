@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { Emilys_Candy } from 'next/font/google'
 import { useRouter } from 'next/navigation'
 
-export default function page() {
+export default function Page() {
     const router = useRouter();
     const token = router.query;
     const [password, setPassword] = useState("")
