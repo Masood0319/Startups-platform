@@ -7,18 +7,17 @@ import { useRouter } from "next/navigation";
 export async function GET(req) {
   const { searchParams } = new URL(req.url);
   const role = searchParams.get("role");
-  const router = useRouter()
 
   if (role === "fundmanager") {
-    router.push("fundManagerDashboard")
+    redirect("fundManagerDashboard")
   }
 
   if (role === "investor") {
-    router.push("dashboard/investor")
+    redirect("dashboard/investor")
   }
 
   if (role === "founder") {
-    router.push("dashboard/founder")
+    redirect("dashboard/founder")
   }
 
   return NextResponse.json({ error: "Role not recognized" }, { status: 400 });
