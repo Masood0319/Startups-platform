@@ -37,7 +37,7 @@ export default function Hero() {
               Your Gateway to smarter decision
             </h1>
             <p className="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
-              From first time investors to seasoned traders, we're creating a smarter way for the world to invest--together.
+              From first time investors to seasoned traders, were creating a smarter way for the world to invest--together.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
