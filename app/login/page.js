@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 
-export default function page() {
+export default function Page() {
 
     const router = useRouter()
 
