@@ -17,7 +17,7 @@ export default function InvestorDashboard() {
       .then((data) => setRecommended(data.startups));
   }, []);
 
-  // if (!stats) return <p className="p-6">Loading dashboard...</p>;
+  if (!stats) return <p className="p-6">Loading dashboard...</p>;
 
   return (
     <div className="p-6">
