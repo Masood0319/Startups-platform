@@ -66,7 +66,7 @@ export default function DashboardStartupsPage() {
 
   useEffect(() => {
     fetchList();
-  }, []);
+  }, [fetchList]);
 
   async function handleCreate(e) {
     e.preventDefault();
