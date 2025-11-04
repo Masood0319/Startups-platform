@@ -2,7 +2,7 @@
 
 // app/api/dashboard/route.js
 import { NextResponse } from "next/server";
-import { useRouter } from "next/navigation";
+import { redirect } from "next/navigation";
 
 export async function GET(req) {
   const { searchParams } = new URL(req.url);
