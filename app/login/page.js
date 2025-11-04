@@ -194,7 +194,7 @@ export default function Page() {
                     </form>
 
                     <p className="mt-10 text-center text-sm/6 text-gray-400">
-                        Don't have an account?
+                        Dont have an account?
                         <Link href="signup" className="font-semibold text-indigo-400 hover:text-indigo-300 pl-2">
                             Register
                         </Link>
